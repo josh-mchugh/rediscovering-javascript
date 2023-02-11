@@ -12,3 +12,6 @@ This file demonstrates how the new `let` type does not spill outside of the scop
 
 ## confusion.js
 This file demonstrates how `let` is very powerful in limiting scope of the variable but has mutability. Mutability can cause unwanted bugs and confusing code when not handled with care. It is bet to favor immutability when presented with an option too.
+
+## letconst.js
+This file demonstrates how `const` is immutable. `const` variables should not change. When an attempt to change the `const` value, we will get a runtime error.
