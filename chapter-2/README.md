@@ -21,3 +21,6 @@ This file demonstrates how `const` protects primitives and the references. It al
 
 ## change-string.js
 This file demonstrates how JavaScript will allow us to write code to modify the string array of a const but ignore the change and preserve the original string value.
+
+## change-string-strict.js
+This file demonstrates how using 'use strict' will prevent JavaScript from silently ignoring our attempt to make a change to the string array of a const variable.
