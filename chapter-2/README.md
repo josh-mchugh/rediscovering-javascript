@@ -15,3 +15,6 @@ This file demonstrates how `let` is very powerful in limiting scope of the varia
 
 ## letconst.js
 This file demonstrates how `const` is immutable. `const` variables should not change. When an attempt to change the `const` value, we will get a runtime error.
+
+## const-reach.js
+This file demonstrates how `const` protects primitives and the references. It also demonstrates how it does not protect the internals of the refernced object.
