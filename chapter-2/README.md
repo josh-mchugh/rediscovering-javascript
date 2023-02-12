@@ -24,3 +24,6 @@ This file demonstrates how JavaScript will allow us to write code to modify the 
 
 ## change-string-strict.js
 This file demonstrates how using 'use strict' will prevent JavaScript from silently ignoring our attempt to make a change to the string array of a const variable.
+
+## immutable-object.js
+This file demonstrates how to use Object.feeze function with const variable types to make immutable objects.
