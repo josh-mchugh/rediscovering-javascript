@@ -18,3 +18,6 @@ This file demonstrates how `const` is immutable. `const` variables should not ch
 
 ## const-reach.js
 This file demonstrates how `const` protects primitives and the references. It also demonstrates how it does not protect the internals of the refernced object.
+
+## change-string.js
+This file demonstrates how JavaScript will allow us to write code to modify the string array of a const but ignore the change and preserve the original string value.
