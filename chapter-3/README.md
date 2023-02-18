@@ -12,3 +12,8 @@ This example shows the rest parameter and how it has a better method signature f
 
 ## functionalmax.js
 This example shows how we can use the rest parameter in a functional way since it is of the type Array. This example uses the functional programming to calculate the max value of the rest parameter values in a single line of code.
+
+Rest parameters have a few simple rules:
+1. The rest parameter has to be the last formal parameter.
+2. There can be at most one rest parameter in the method signature.
+3. The rest parameter contains only values which have not been given an explicit name.
