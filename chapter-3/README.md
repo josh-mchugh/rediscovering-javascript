@@ -10,3 +10,5 @@ This example shows how JavaScript used to rely on a type called Arguments. It st
 ## restmax.js
 This example shows the rest parameter and how it has a better method signature for expressing a variable with any number of arguments. The rest paramter allows of to do everything the arguments functionality did but with cleaner code and more functionality.
 
+## functionalmax.js
+This example shows how we can use the rest parameter in a functional way since it is of the type Array. This example uses the functional programming to calculate the max value of the rest parameter values in a single line of code.
