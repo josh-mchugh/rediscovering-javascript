@@ -17,3 +17,6 @@ Rest parameters have a few simple rules:
 1. The rest parameter has to be the last formal parameter.
 2. There can be at most one rest parameter in the method signature.
 3. The rest parameter contains only values which have not been given an explicit name.
+
+## greet.js
+This example demonstrates the spread operator. The spread operator is the opposite of the rest paramter as it breaks a collection into discrete values. The spread operator also is used when calling a function. 
