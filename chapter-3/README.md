@@ -26,3 +26,6 @@ This example demonstrates the spread operator with a function without the rest p
 
 ## mixed.js
 This example demotrates how the spread operator assigns the values to the function paramters. In this example it demonstrates how the spread operator will assign the values to the function paramters and any remain will be appied to a rest paramter or simply ignored.
+
+## constructor.js
+This example demonstrates the use of the spread operator on a constructor. We pass the parameters for the RegExp constructor with the spread operator.
