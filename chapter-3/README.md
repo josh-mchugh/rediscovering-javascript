@@ -19,4 +19,7 @@ Rest parameters have a few simple rules:
 3. The rest parameter contains only values which have not been given an explicit name.
 
 ## greet.js
-This example demonstrates the spread operator. The spread operator is the opposite of the rest paramter as it breaks a collection into discrete values. The spread operator also is used when calling a function. 
+This example demonstrates the spread operator. The spread operator is the opposite of the rest paramter as it breaks a collection into discrete values. The spread operator also is used when calling a function.
+
+## norest.js
+This example demonstrats the spread operator with a function without the rest paramter. The spread operator is able to spread the array over the parameters of the function. Any extra parameters are ignored and if any are missing they become undfined.
