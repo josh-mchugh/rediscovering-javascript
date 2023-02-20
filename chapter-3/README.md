@@ -32,3 +32,6 @@ This example demonstrates the use of the spread operator on a constructor. We pa
 
 ## arrayspread.js
 This example demonstrates how the spread operator can be used to copy, concatenate, and manipulate arrays.
+
+## objectspread.js
+This example demonstrates how the spread operator can be used on an object. It can be used to create copies, copies with modified and added attributes and values. It's an elegant and concise pattern.
