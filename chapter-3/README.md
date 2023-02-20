@@ -29,3 +29,6 @@ This example demotrates how the spread operator assigns the values to the functi
 
 ## constructor.js
 This example demonstrates the use of the spread operator on a constructor. We pass the parameters for the RegExp constructor with the spread operator.
+
+## arrayspread.js
+This example demonstrates how the spread operator can be used to copy, concatenate, and manipulate arrays.
