@@ -35,3 +35,6 @@ This example demonstrates how the spread operator can be used to copy, concatena
 
 ## objectspread.js
 This example demonstrates how the spread operator can be used on an object. It can be used to create copies, copies with modified and added attributes and values. It's an elegant and concise pattern.
+
+## sort-books.js
+This example demonstrates how to set a function parameter to have default value. Default parameters allows for paramters to be passed in when called when they match the default value for less code clutter and noise. Default parameters alllow for a function to evolve without breaking existing code. Default parameters compensate for the lack of function overloading.
