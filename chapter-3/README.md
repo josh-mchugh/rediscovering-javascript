@@ -47,3 +47,6 @@ This example demonstrates how JavaScript will allow us to use mixed parameters w
 
 ## expression-default.js
 This example demonstrates the ability to use expressions as default parameters. In the example if the parameter for the date is not present a new default date object will be created and used.
+
+## compute-default.js
+This example demonstrates the ability to use the paramters to compute a value based off another paramter. Note that paramters must be defined in order as it will throw a ReferenceError that the variable is not defined.
