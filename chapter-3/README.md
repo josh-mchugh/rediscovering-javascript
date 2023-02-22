@@ -41,3 +41,6 @@ This example demonstrates how to set a function parameter to have default value.
 
 ## multiple-default-parameters.js
 This example demonstrates how to use multiple default paramters. This feature allows for functions to be called missing some tailing parameters and have the default values be used. When in a situation when a paramter is not availble and is not a tailing paramter, undfined can be used to enable the default parameters.
+
+## mixed-default-parameters.js
+This example demonstrates how JavaScript will allow us to use mixed parameters within the function signature. It is recommended that default parameters be trailing parameters.
