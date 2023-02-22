@@ -38,3 +38,6 @@ This example demonstrates how the spread operator can be used on an object. It c
 
 ## sort-books.js
 This example demonstrates how to set a function parameter to have default value. Default parameters allows for paramters to be passed in when called when they match the default value for less code clutter and noise. Default parameters alllow for a function to evolve without breaking existing code. Default parameters compensate for the lack of function overloading.
+
+## multiple-default-parameters.js
+This example demonstrates how to use multiple default paramters. This feature allows for functions to be called missing some tailing parameters and have the default values be used. When in a situation when a paramter is not availble and is not a tailing paramter, undfined can be used to enable the default parameters.
