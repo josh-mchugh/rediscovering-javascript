@@ -50,3 +50,6 @@ This example demonstrates the ability to use expressions as default parameters. 
 
 ## compute-default.js
 This example demonstrates the ability to use default paramters to compute a value based off another paramter if it is not present. Note that paramters must be defined in order as it will throw a ReferenceError that the variable is not defined.
+
+## default-and-rest.js
+This example demonstrates that we can use default values with parameters and have a tailing rest parameter. The rest parameter will have a default value of an empty array if it is not passed in.
