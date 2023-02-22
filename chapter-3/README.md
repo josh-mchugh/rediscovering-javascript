@@ -44,3 +44,6 @@ This example demonstrates how to use multiple default paramters. This feature al
 
 ## mixed-default-parameters.js
 This example demonstrates how JavaScript will allow us to use mixed parameters within the function signature. It is recommended that default parameters be trailing parameters.
+
+## expression-default.js
+This example demonstrates the ability to use expressions as default parameters. In the example if the parameter for the date is not present a new default date object will be created and used.
