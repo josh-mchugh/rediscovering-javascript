@@ -53,3 +53,6 @@ This example demonstrates the ability to use default paramters to compute a valu
 
 ## default-and-rest.js
 This example demonstrates that we can use default values with parameters and have a tailing rest parameter. The rest parameter will have a default value of an empty array if it is not passed in.
+
+## rest-and-default.js
+This example demonstrates that JavaScript does not allow for default values for rest paramters. Attempting to do so will cause a SyntaxError stating that rest paramters may not have a default initializer.
