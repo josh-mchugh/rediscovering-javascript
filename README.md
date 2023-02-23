@@ -11,3 +11,6 @@ This chapter demonstrates the issues with JavaScripts `var` and how they can be 
 
 ## Chapter 3
 This chapter demonstrates the improvements to JavaScripts functions to allow for arrow functions and spread parameters.
+
+## Chapter 4
+This chapter goes over the new iternation patterns which are more concise and less noise. The new interface like primitive type called 'Symbol'. Generators and how they can help create infinite sequences.
