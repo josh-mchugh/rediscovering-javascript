@@ -9,3 +9,6 @@ This is an example of the for...of enchanced for loop. It is a simplier for loop
 
 ## using-entries.js
 This example demonstrates the use of entries from the enchanced for...of loop. The entries allows us to get the index and value of an object while in the for loop. The entry return two values, the index and the value at that index.
+
+## enchanced-for-with-index.js
+This is example to demonstrate how deconstructing the entry and create easy to access index and value properties within the enchanced for...of loop. This demonstrates a clean way to iterator over an Array without having to deal with upper and lower bounds but still access the index.
