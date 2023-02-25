@@ -6,3 +6,6 @@ This example demonstrates the classic for loop iteration within JavaScript and h
 
 ## enchanced-for.js
 This is an example of the for...of enchanced for loop. It is a simplier for loop iteration with concise and clean code. Implmenting the enchanced for...of loop can help create less error prone code.
+
+## using-entries.js
+This example demonstrates the use of entries from the enchanced for...of loop. The entries allows us to get the index and value of an object while in the for loop. The entry return two values, the index and the value at that index.
