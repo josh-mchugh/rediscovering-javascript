@@ -12,3 +12,6 @@ This example demonstrates the use of entries from the enchanced for...of loop. T
 
 ## enchanced-for-with-index.js
 This is example to demonstrate how deconstructing the entry and create easy to access index and value properties within the enchanced for...of loop. This demonstrates a clean way to iterator over an Array without having to deal with upper and lower bounds but still access the index.
+
+## symbol-property.js
+This example demonstrates how the new Symbol types can hide properties on an object during iteration unless specifically looking for Symbol values. Symbol values can still be accessed and modified.
