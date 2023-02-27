@@ -15,3 +15,6 @@ This is example to demonstrate how deconstructing the entry and create easy to a
 
 ## symbol-property.js
 This example demonstrates how the new Symbol types can hide properties on an object during iteration unless specifically looking for Symbol values. Symbol values can still be accessed and modified.
+
+## examine-regex.js
+This example explores the RegExp object and it's properties. We can tell that the RegExp has a handful of Symbol properties associated with it.
