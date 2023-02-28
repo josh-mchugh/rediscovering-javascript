@@ -18,3 +18,6 @@ This example demonstrates how the new Symbol types can hide properties on an obj
 
 ## examine-regex.js
 This example explores the RegExp object and it's properties. We can tell that the RegExp has a handful of Symbol properties associated with it.
+
+## creating-symbols.js
+This code snippet showcases the Symbol() function and the creation of the Symbol objects. It compares Symbols an
