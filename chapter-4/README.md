@@ -20,4 +20,7 @@ This example demonstrates how the new Symbol types can hide properties on an obj
 This example explores the RegExp object and it's properties. We can tell that the RegExp has a handful of Symbol properties associated with it.
 
 ## creating-symbols.js
-This code snippet showcases the Symbol() function and the creation of the Symbol objects. It compares Symbols an
+This code snippet showcases the Symbol() function and the creation of the Symbol objects. It compares Symbols and their equality.
+
+## symbol-registry.js
+This snippet of code demonstrates the `Symbol.for()` function. The `Symbol.for()` function creates a `Symbol` if one already does not exists for that key in the global registry, andreturn either a newly created instance or preexisting one. We can use `Symbol.keyFor()` function at any time to retrieve a pre-created `Symbol` for a given key.
