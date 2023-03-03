@@ -27,3 +27,6 @@ This snippet of code demonstrates the `Symbol.for()` function. The `Symbol.for()
 
 ## search.js
 In this example, we show how to use a Symbol with a class in a similar way to Java and C#. We declare the Symbol method within the class. It demostrates how the Symbol method on our class is called for each time the function is called on the string variable.
+
+## iterate.js
+In this example we show how Array uses the [Symbol.iterate] and allows for us to use for...of to iterate over the values.
