@@ -30,3 +30,9 @@ In this example, we show how to use a Symbol with a class in a similar way to Ja
 
 ## iterate.js
 In this example we show how Array uses the [Symbol.iterate] and allows for us to use for...of to iterate over the values.
+
+## no-iterator.js
+This example we use the [Symbol.iterator] to allow for our class object to be used as an iteratable object within the for...of loop. We use the yield functionality to keep the code clean and short.
+
+## generators.js
+We expand on the no-iterator.js example by using generators and yield to expand the code and keep it's functions small. We create two generators and combine them together to create a suit of cards.
