@@ -36,3 +36,6 @@ This example we use the [Symbol.iterator] to allow for our class object to be us
 
 ## generators.js
 We expand on the no-iterator.js example by using generators and yield to expand the code and keep it's functions small. We create two generators and combine them together to create a suit of cards.
+
+## infinite-squence.js
+In this example, we create an infinite loop to find the prime numbers from a starting point and with a limit. We use an anonymous generator function to create an infinite loop to try and find the next prime. When one is found, the value is 'yield' to the caller which is the iterator of the for...of loop. If the for...of reaches it's limit and breaks out so does the infiite loop since the yield was not called back.
