@@ -18,3 +18,6 @@ Arrow functions cannot be named. In this example we demonstrate how anonymous fu
 
 ## car.js
 Example of using a function as a constructor to create an new instance. Arrow functions are not able to be used as a constructor.
+
+## no-constructor.js
+Example of an arrow function not being able to be used as a constructor. When the code is executed, it throws a runtime error stating that it is not a constructor.
