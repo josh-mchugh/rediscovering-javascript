@@ -9,3 +9,6 @@ This example demonstrates how an arrow function does not require the parentheses
 
 ## rest-parameter-arrow.js
 We demonstrate how the arrow function can use the rest parameter. In this example we take a message and subjects. It can take one more paramters to display the message.
+
+## using-bind.js
+Using bind() has some limitations as it's first parameter binds to 'this' and arrow functions use the lexical 'this'. When using arrow functions we cannot bind 'this' if bind() is called.
