@@ -15,3 +15,6 @@ Using bind() has some limitations as it's first parameter binds to 'this' and ar
 
 ## named-anonymous.js
 Arrow functions cannot be named. In this example we demonstrate how anonymous functions can be named and be used recursively.
+
+## car.js
+Example of using a function as a constructor to create an new instance. Arrow functions are not able to be used as a constructor.
