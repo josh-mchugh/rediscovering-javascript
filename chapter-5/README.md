@@ -12,3 +12,6 @@ We demonstrate how the arrow function can use the rest parameter. In this exampl
 
 ## using-bind.js
 Using bind() has some limitations as it's first parameter binds to 'this' and arrow functions use the lexical 'this'. When using arrow functions we cannot bind 'this' if bind() is called.
+
+## named-anonymous.js
+Arrow functions cannot be named. In this example we demonstrate how anonymous functions can be named and be used recursively.
