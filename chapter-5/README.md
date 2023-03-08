@@ -30,3 +30,6 @@ Arrow functions use lexical scope and do not have the property 'new.target' whic
 
 ## embedded-arrow-new-target.js
 An arrow function inside a function will bel able to get the 'new.target' from it's lexical scoping.
+
+## arrow-prototype.js
+Arrow functions do not have a prototype property, if your code make heavy use of the prototype property of a function the using regular functions might be a better candidate.
