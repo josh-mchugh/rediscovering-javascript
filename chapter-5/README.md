@@ -27,3 +27,6 @@ Regular functions can use 'new.target' to determine if the function was called a
 
 ## arrow-new-target.js
 Arrow functions use lexical scope and do not have the property 'new.target' which will be undefined.
+
+## embedded-arrow-new-target.js
+An arrow function inside a function will bel able to get the 'new.target' from it's lexical scoping.
