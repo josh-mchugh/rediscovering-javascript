@@ -21,3 +21,6 @@ Example of using a function as a constructor to create an new instance. Arrow fu
 
 ## no-constructor.js
 Example of an arrow function not being able to be used as a constructor. When the code is executed, it throws a runtime error stating that it is not a constructor.
+
+## new-target.js
+Regular functions can use 'new.target' to determine if the function was called as a constructor or a as a regular function.
