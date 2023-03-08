@@ -24,3 +24,6 @@ Example of an arrow function not being able to be used as a constructor. When th
 
 ## new-target.js
 Regular functions can use 'new.target' to determine if the function was called as a constructor or a as a regular function.
+
+## arrow-new-target.js
+Arrow functions use lexical scope and do not have the property 'new.target' which will be undefined.
