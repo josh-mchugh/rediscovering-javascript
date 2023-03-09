@@ -33,3 +33,10 @@ An arrow function inside a function will bel able to get the 'new.target' from i
 
 ## arrow-prototype.js
 Arrow functions do not have a prototype property, if your code make heavy use of the prototype property of a function the using regular functions might be a better candidate.
+
+## When to Use Arrow Functions
+- Do not use arrow functions to define methods of a class, in an object literal or through Object.prototype. The major hiccup here is the lexical scoping of 'this'. If the method were defined using an arrow function, when the method is called, 'this' will not refer to instance on which the method is called.
+- Avoid multiline arrow functions as arguments to functions.
+- Use arrow functions if the function is a short one-liner. The reduced noice of arrow functions shines here.
+- When registering event handlers, do not use arrow functions if 'this' needs dynamic scoping instead of lexical scoping. But if you want lexical scoping instead of dynamic scoping for 'this', then arrow functions are a great choice.
+- Use single-line arrow functions as arguments to functions. The readability of code is not lost, especially if we break the lines and indent on each argument.
