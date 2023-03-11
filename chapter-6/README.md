@@ -9,3 +9,6 @@ Template literals are evaluated when the template literal is evaluate. This is s
 
 ## nested.js
 Template literals can have nested template literals. If a nested template literal is hard to read the break the nested template literal into a seperate regular function or an arrow function.
+
+## multiline.js
+Template literals may be single or multiline. Multiline template literals preserve indentations and line breaks.
