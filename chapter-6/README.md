@@ -12,3 +12,6 @@ Template literals can have nested template literals. If a nested template litera
 
 ## multiline.js
 Template literals may be single or multiline. Multiline template literals preserve indentations and line breaks.
+
+## using-raw.js
+Template literal tags are functions that receive the contents of the provided template literal in two parts: the template object and the evaluated expressions. In this example we use the String.raw tag to get the raw form of the string from the template literal.
