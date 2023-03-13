@@ -15,3 +15,6 @@ Template literals may be single or multiline. Multiline template literals preser
 
 ## using-raw.js
 Template literal tags are functions that receive the contents of the provided template literal in two parts: the template object and the evaluated expressions. In this example we use the String.raw tag to get the raw form of the string from the template literal.
+
+## print-template-literal.js
+In this example, printDetails() demostrates how this function can be used as a tag for template literals. It takes two arugements which are both arrays. The first argument is the text of the template literal and then second argument is the expressions.
