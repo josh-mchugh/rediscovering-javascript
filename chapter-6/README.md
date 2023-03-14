@@ -18,3 +18,6 @@ Template literal tags are functions that receive the contents of the provided te
 
 ## print-template-literal.js
 In this example, printDetails() demostrates how this function can be used as a tag for template literals. It takes two arugements which are both arrays. The first argument is the text of the template literal and then second argument is the expressions.
+
+## mask.js
+A tag may be used to perform transformations on given template literas. In the example below the tag masks the expressions. Since tags may transform template literals into representaions, the possiblities of its application is endless.
