@@ -21,3 +21,6 @@ In this example, printDetails() demostrates how this function can be used as a t
 
 ## mask.js
 A tag may be used to perform transformations on given template literas. In the example below the tag masks the expressions. Since tags may transform template literals into representaions, the possiblities of its application is endless.
+
+## without-enhanced-object-literals.js
+Creating an object by assigning fields wih values from existing variables is a common operation. The code demonstrated in this file, showcases the noisy code that it took to create an object with a few fields and methods. Some functions are computed and not allowed in the object initialization list.
