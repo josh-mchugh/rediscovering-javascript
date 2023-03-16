@@ -24,3 +24,6 @@ A tag may be used to perform transformations on given template literas. In the e
 
 ## without-enhanced-object-literals.js
 Creating an object by assigning fields wih values from existing variables is a common operation. The code demonstrated in this file, showcases the noisy code that it took to create an object with a few fields and methods. Some functions are computed and not allowed in the object initialization list.
+
+## using-enhanced-object-literals.js
+This example demonstrates creating the same object variables in the previous example. We were able to use Object literals to reduce and simplify the code. Object literals allow us to directly return the object, destruct parameters into variables, drop method functions into method creation and add computed variables as first class citizens.
