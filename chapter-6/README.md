@@ -27,3 +27,6 @@ Creating an object by assigning fields wih values from existing variables is a c
 
 ## using-enhanced-object-literals.js
 This example demonstrates creating the same object variables in the previous example. We were able to use Object literals to reduce and simplify the code. Object literals allow us to directly return the object, destruct parameters into variables, drop method functions into method creation and add computed variables as first class citizens.
+
+## multiple-returns.js
+Destructing is one of the most powerful features of modern JavaScript. It allows us extract data from arrays and object. It removes the excessive and repetitive use of indexing operators or dots to get data within arrays or objects.
