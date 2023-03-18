@@ -30,3 +30,6 @@ This example demonstrates creating the same object variables in the previous exa
 
 ## multiple-returns.js
 Destructing is one of the most powerful features of modern JavaScript. It allows us extract data from arrays and object. It removes the excessive and repetitive use of indexing operators or dots to get data within arrays or objects.
+
+## object-destructuring.js
+In this example we explore the ways to destruct an object. It provides an elegant way to extract data from objects into variables in local or lexical scope.
