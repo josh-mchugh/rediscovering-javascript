@@ -33,3 +33,6 @@ Destructing is one of the most powerful features of modern JavaScript. It allows
 
 ## object-destructuring.js
 In this example we explore the ways to destruct an object. It provides an elegant way to extract data from objects into variables in local or lexical scope.
+
+## extensible-copy.js
+Using the spread operator with object destructing we are able to update, add and maintain the existing values of an object. Using this pattern is critical from the extensibility point of view and will minimize the need to track down bugs later one.
