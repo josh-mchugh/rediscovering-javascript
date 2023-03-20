@@ -20,3 +20,6 @@ Anonymous functions have been in JavaScript from day one. Arrow functions are ne
 
 ## Chapter 6
 In this chapter we look at new features within JavaScript to reduce noise and clutter within code. Template literals, multiline strings, object literals, and destructing are new ways to reduce the code clutter and improve readability and ease of coding.
+
+## Chapter 7
+It is now possible to create clean Object Oriented code with JavaScript. JavaScript now allows for a new way of creating classes, instances and static members. Within the new improvements we will be able to create clean and less error prone classes Object Orient programming with a ix of functional programming.
