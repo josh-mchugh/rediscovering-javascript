@@ -6,3 +6,6 @@ JavaScript added the keyword 'class' which makes it obvious and unambiguous. The
 
 ## no-hoisting.js
 Class function calls cannot be called before the class definition. Calling the function before the definition will create a 'ReferenceError'.
+
+## ok-use.js
+When the definition of a class function call comes to life before the point of reference in the flow of execution, then it is okay. The new class syntax makes defining a class effortless, pleasant and removes the issues of incorrect use while keeping the same semantics of defining a class as before.
