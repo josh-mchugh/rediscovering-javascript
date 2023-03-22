@@ -9,3 +9,6 @@ Class function calls cannot be called before the class definition. Calling the f
 
 ## ok-use.js
 When the definition of a class function call comes to life before the point of reference in the flow of execution, then it is okay. The new class syntax makes defining a class effortless, pleasant and removes the issues of incorrect use while keeping the same semantics of defining a class as before.
+
+## default-constructor.js
+Creating a class defnes a no-paramter default constructor which appears to be empty bodied. If you want to execute some code in the objects construction then we need to explicit constructor.
