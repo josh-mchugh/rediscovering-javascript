@@ -12,3 +12,6 @@ When the definition of a class function call comes to life before the point of r
 
 ## default-constructor.js
 Creating a class defnes a no-paramter default constructor which appears to be empty bodied. If you want to execute some code in the objects construction then we need to explicit constructor.
+
+## constructor.js
+A constructor may take zero, one, two or any number of parameters, including default and rest parameters. A constructor is called when an instance is created using the new keyword. Default constructor is sufficient when a constructor is not needed.
