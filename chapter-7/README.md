@@ -15,3 +15,7 @@ Creating a class defnes a no-paramter default constructor which appears to be em
 
 ## constructor.js
 A constructor may take zero, one, two or any number of parameters, including default and rest parameters. A constructor is called when an instance is created using the new keyword. Default constructor is sufficient when a constructor is not needed.
+
+## create-method.js
+To define a method with the new JavaScript class, we place the function body within the {} of the class definition without the function keyword.
+A method may take zero, one, or more parameters, including default and rest paramters. Methods may access and modify any fields of the class and may perform actions.
