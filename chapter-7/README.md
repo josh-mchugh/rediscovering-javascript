@@ -19,3 +19,6 @@ A constructor may take zero, one, two or any number of parameters, including def
 ## create-method.js
 To define a method with the new JavaScript class, we place the function body within the {} of the class definition without the function keyword.
 A method may take zero, one, or more parameters, including default and rest paramters. Methods may access and modify any fields of the class and may perform actions.
+
+## computed-members.js
+Computed members can be dynamic names to fields, properties, and methods of a class. Computed memvers are defined with string or template literal directly within '[]'. Computed members can be added to an instance and computer methods can be called by adding '()'.
