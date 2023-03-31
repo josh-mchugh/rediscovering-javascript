@@ -22,3 +22,6 @@ A method may take zero, one, or more parameters, including default and rest para
 
 ## computed-members.js
 Computed members can be dynamic names to fields, properties, and methods of a class. Computed memvers are defined with string or template literal directly within '[]'. Computed members can be added to an instance and computer methods can be called by adding '()'.
+
+## class-expressions.js
+Class expressions are useful to create dynamic classes at runtime. Class expressions can be used to create a class factory function that will create classes.
