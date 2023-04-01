@@ -31,3 +31,6 @@ A class expression may be given a name for situations when it is needed. A class
 
 ## creating-set.js
 JavaScript now offers built-in classes for sets as first-class citizens in the language. A set is a unique collection of primitive and objects. Duplicates are not allowed.
+
+## creating-map.js
+A Map is an associative collection of keys and values where the keys are distinct. Key and values may be any primitive or object. Maps can be initialized with values or values can be added to an empty map.
