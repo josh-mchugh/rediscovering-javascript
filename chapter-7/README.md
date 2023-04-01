@@ -28,3 +28,6 @@ Class expressions are useful to create dynamic classes at runtime. Class express
 
 ## class-expression-named.js
 A class expression may be given a name for situations when it is needed. A class is known only by the name to which the expression was assigned which is 'Movie'. The expression name is only known within in the class.
+
+## creating-set.js
+JavaScript now offers built-in classes for sets as first-class citizens in the language. A set is a unique collection of primitive and objects. Duplicates are not allowed.
