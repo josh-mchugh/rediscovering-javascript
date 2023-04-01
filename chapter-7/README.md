@@ -34,3 +34,6 @@ JavaScript now offers built-in classes for sets as first-class citizens in the l
 
 ## creating-map.js
 A Map is an associative collection of keys and values where the keys are distinct. Key and values may be any primitive or object. Maps can be initialized with values or values can be added to an empty map.
+
+## memory-usage-map.js
+A WeakMap or WeakSet provides the ability to for the values or keys to be garbage collected if they are not neeed in the application. Objects within the WeakMap or WeakSet may go away at any time without notice. To avoid any suprises WeakSet and WeakMap have some restrictions on how we can access the elements.
