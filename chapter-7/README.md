@@ -25,3 +25,6 @@ Computed members can be dynamic names to fields, properties, and methods of a cl
 
 ## class-expressions.js
 Class expressions are useful to create dynamic classes at runtime. Class expressions can be used to create a class factory function that will create classes.
+
+## class-expression-named.js
+A class expression may be given a name for situations when it is needed. A class is known only by the name to which the expression was assigned which is 'Movie'. The expression name is only known within in the class.
