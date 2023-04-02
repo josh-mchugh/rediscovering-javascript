@@ -23,3 +23,6 @@ In this chapter we look at new features within JavaScript to reduce noise and cl
 
 ## Chapter 7
 It is now possible to create clean Object Oriented code with JavaScript. JavaScript now allows for a new way of creating classes, instances and static members. Within the new improvements we will be able to create clean and less error prone classes Object Orient programming with a ix of functional programming.
+
+## Chapter 8
+JavaScript implements prototypal inheritance. The synytax for inheritance is now much easier to use and understand.It brings an updated syntax for inheriting from an existing classes.
