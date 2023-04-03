@@ -3,3 +3,6 @@ JavaScript implements prototypal inheritance. The synytax for inheritance is now
 
 ## examine-prototype.js
 Delegation is better than inheritance. JavaScript takes that advice to heart. Prototype-based languages use an object chain to delegate calls. Instead of relying on a base class or super class, prototype inheritances relies on an object next in the chain to serve as its base. We demonstrate how two objects can be different instances but have the same prototype chain.
+
+## inheritance.js
+JavaScript has an improved syntax for creating typal inheritance. It is much more clear and elegant way to override methods. The syntax is much like Java, however, it is prototypal inheritance and Java is class-based inheritance.
