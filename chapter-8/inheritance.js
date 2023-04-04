@@ -65,3 +65,14 @@ printPrototypeHierarchy(alan);
 const ada = new ReputablePerson('Ada', 'Lovelace', 5);
 console.log('verifing that instance of a class share prototypes...');
 printPrototypeHierarchy(ada);
+
+//When extending a class in JavaScript, if no additional parameters are need for the constructor, JavaScript will provide a default constructor with a call to 'super()' with the passed in data.
+class AwesomePerson extends Person {
+    get fullName() {
+	return `Awesome ${super.fullName}`;
+    }
+}
+
+const ball = new AwesomePerson('Lucille', 'Ball');
+console.log('Example of AwesomePerson with default constructor and call to base super()');
+console.log(ball.fullName);
