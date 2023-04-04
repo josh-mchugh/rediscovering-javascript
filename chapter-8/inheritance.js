@@ -42,3 +42,26 @@ class ReputablePerson extends Person {
 const alan = new ReputablePerson('Alan', 'Turing', 5);
 console.log(alan.toString());
 console.log(alan.fullName);
+
+//Prototype chains can be repeatedly or recursively called to walk the inheritance hierarchy.
+//Using the function below we are able to print the prototypal chain of ReputablePerson.
+const printPrototypeHierarchy = function(instance) {
+    if(instance !== null) {
+	console.log(instance);
+	printPrototypeHierarchy(Reflect.getPrototypeOf(instance));
+    }
+};
+console.log('Printing prototypal inheritance of ReputablePerson');
+printPrototypeHierarchy(alan);
+
+//Prototype chains can be modified at run time with cuation. In the example below we alter te prototype chain of the instance of alan. We replaced everything below ReputablePerson has been replace with ComputerWiz.
+class ComputerWiz {}
+Reflect.setPrototypeOf(Reflect.getPrototypeOf(alan), ComputerWiz.prototype);
+console.log('after changing prototype of "alan"...');
+printPrototypeHierarchy(alan);
+
+//Instances of a class share prototypes. If we create a another object of ReputablePerson, then its prototype chain will be the same as the modified prototype chain of alan.
+//we are have to be very careful when changing the prototype chains. If the change is drastic and unintended, it may result in unexpected, and hard to debug behavior.
+const ada = new ReputablePerson('Ada', 'Lovelace', 5);
+console.log('verifing that instance of a class share prototypes...');
+printPrototypeHierarchy(ada);
