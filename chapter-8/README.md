@@ -6,3 +6,6 @@ Delegation is better than inheritance. JavaScript takes that advice to heart. Pr
 
 ## inheritance.js
 JavaScript has an improved syntax for creating typal inheritance. It is much more clear and elegant way to override methods. The syntax is much like Java, however, it is prototypal inheritance and Java is class-based inheritance.
+
+## inherit-from-function.js
+For backwards compatibility, classes using the old syntax can be used as base classes and extends with the new 'extends' syntax.
