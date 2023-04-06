@@ -12,3 +12,6 @@ For backwards compatibility, classes using the old syntax can be used as base cl
 
 ## array-vs-string.js
 In this example, we look at how String and Array which both implement the same method but have different behaviors. When calling the 'concat()' they return different instance types. MyString with the String 'concat()' returned it's own type while MyArray with the Array 'concat()' return an instance of the same type.
+
+## managing-instances.js
+In JavaScript we can manage the instance types the base methods create. When working with prototypal inheritance, classes can be good citizens and return created instances of the object type which called the method. Classes can even use [Symbol.species] to tell their base classes which type of instance they would like back.
