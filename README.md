@@ -26,3 +26,6 @@ It is now possible to create clean Object Oriented code with JavaScript. JavaScr
 
 ## Chapter 8
 JavaScript implements prototypal inheritance. The synytax for inheritance is now much easier to use and understand.It brings an updated syntax for inheriting from an existing classes.
+
+## Chapter 9
+JavaScript modules are well-encapsulated files. Modules all for cohesive software designs as it allows for clearly specifiying what is needed via imports and what can be used by others via exports. This control prevents accidental and unintentional dependencies in code and reduces errors. Javascript modules allow for big applications to be broken down into well structured parts.
