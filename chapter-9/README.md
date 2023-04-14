@@ -9,3 +9,6 @@ Primitives, functions, objects, classes defined within a module are available to
 
 ## temperature-explicitly.mjs
 You can also export an existing function, object, primitive, and classes at any time by declaring an export. This is called explicit export. Explicit exports are useful when inline exports are not suitable.
+
+## temperature-export-named.mjs
+Declarations can be explicitly exported with different names. This is useful for giving more descriptive names for the outside world to see but keep the shorter names for internal use.
