@@ -12,3 +12,6 @@ You can also export an existing function, object, primitive, and classes at any 
 
 ## temperature-export-named.mjs
 Declarations can be explicitly exported with different names. This is useful for giving more descriptive names for the outside world to see but keep the shorter names for internal use.
+
+## temperature-export-defaults.mjs
+A default export may signify the most significant or only export a module may like to expose. A module only supports one default export. When using default exports outside of the class, they are referenced by 'default'.
