@@ -15,3 +15,6 @@ Declarations can be explicitly exported with different names. This is useful for
 
 ## temperature-export-defaults.mjs
 A default export may signify the most significant or only export a module may like to expose. A module only supports one default export. When using default exports outside of the class, they are referenced by 'default'.
+
+## temperature-operations.mjs
+A module must import references it wants to use exported by other modules. The import directive should specifiy the location of the module or file to load. There are two rules to bring named exports from another module. First, the name specified in the import for the reference should match the exported name. Second, the names have to be specified within a {} block.
