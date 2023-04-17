@@ -29,3 +29,6 @@ JavaScript implements prototypal inheritance. The synytax for inheritance is now
 
 ## Chapter 9
 JavaScript modules are well-encapsulated files. Modules all for cohesive software designs as it allows for clearly specifiying what is needed via imports and what can be used by others via exports. This control prevents accidental and unintentional dependencies in code and reduces errors. Javascript modules allow for big applications to be broken down into well structured parts.
+
+## Chapter 10
+Modern JavaScript promises replace callbacks for asynchronous programming. Promises are nonblocking and will eventually return a result or an error to the caller through the promise. Promises are a lot easier to work with compared to calbacks. Their structure is a lot like functional style programming. With promises it is easier to propagate errors and recover from them as well.
