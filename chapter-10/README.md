@@ -4,3 +4,6 @@ Modern JavaScript promises replace callbacks for asynchronous programming. Promi
 
 ## readfile.js
 Any method that does not return instantaneously should be asynchronous. Traditional approach to designing asynchronous functions relied on callbacks. Callback functions are hard to resuse. Sometimes a callback requires a callback to recieve data and this leads to callback hell.
+
+## create-promise.js
+Promises can have three states: Pending, Resolved, Rejected. If an asynchronous function has not completed it's task it is in a pending state. When a asynchronous function completes it's task it will be set to resolved and generatores or emits the results passed through it. If a promosies asynchronous finishes with an error, then it sets the promise into the rejected state and generates or emits the error passed through it. Promises can be chained together with 'then()' and 'catch()' functions. Successfully asynchronouse functions move on to the next 'then()' function until the chain is over. However, once an error occurs the 'catch()' functions are called until the chain is over.
