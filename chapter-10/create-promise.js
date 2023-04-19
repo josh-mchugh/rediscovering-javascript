@@ -19,3 +19,15 @@ const forSixteen = computeSqrtAsync(16);
 console.log(forNegative1);
 console.log(forZero);
 console.log(forSixteen);
+
+//Calls to functions that return promises are noblocking, which will immediately flow to the next statement after the function call.
+//Whether a promise rejects or resolves immediately or at a laeter time, the way to handle the response is just the same. Successful responses use the 'then()' function. Unsuccessful responses use the 'catch()' function.
+//Since the calls are asynchronous, there is no guarantee of the order of the printed messages.
+const reportOnPromise = function(promise) {
+    promise.then(result => console.log(`result is ${result}.`))
+	.catch(error => console.log(`ERROR: ${error}`));
+};
+
+reportOnPromise(forNegative1);
+reportOnPromise(forZero);
+reportOnPromise(forSixteen);
