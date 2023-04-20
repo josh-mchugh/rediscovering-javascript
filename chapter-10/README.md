@@ -7,3 +7,6 @@ Any method that does not return instantaneously should be asynchronous. Traditio
 
 ## create-promise.js
 Promises can have three states: Pending, Resolved, Rejected. If an asynchronous function has not completed it's task it is in a pending state. When a asynchronous function completes it's task it will be set to resolved and generatores or emits the results passed through it. If a promosies asynchronous finishes with an error, then it sets the promise into the rejected state and generates or emits the error passed through it. Promises can be chained together with 'then()' and 'catch()' functions. Successfully asynchronouse functions move on to the next 'then()' function until the chain is over. However, once an error occurs the 'catch()' functions are called until the chain is over.
+
+## readfile-with-promises.js
+Promises have a nice feature which is they form a pipeline like in the functional composition like arrow functions. In our examples the calls to 'countLinesWithText()' are asynchronous and the order of the output is not predicatable.
