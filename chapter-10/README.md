@@ -10,3 +10,6 @@ Promises can have three states: Pending, Resolved, Rejected. If an asynchronous 
 
 ## readfile-with-promises.js
 Promises have a nice feature which is they form a pipeline like in the functional composition like arrow functions. In our examples the calls to 'countLinesWithText()' are asynchronous and the order of the output is not predicatable.
+
+## race.js
+Promises can handle multiple asynchronous tasks at once. The 'race()' function takes multiple promises and returns the first one to resolve first. With the 'race()' function we do not have to wait for the additional promises to complete, the first one to finish is adequate.
