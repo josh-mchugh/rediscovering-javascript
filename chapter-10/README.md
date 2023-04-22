@@ -13,3 +13,6 @@ Promises have a nice feature which is they form a pipeline like in the functiona
 
 ## race.js
 Promises can handle multiple asynchronous tasks at once. The 'race()' function takes multiple promises and returns the first one to resolve first. With the 'race()' function we do not have to wait for the additional promises to complete, the first one to finish is adequate.
+
+## all.js & count-prime-service.js
+The 'all()' method on Promise takes an array of promises and passes an array of results. If any one of the promises is rejected, then the 'catch()' is used. The 'all()' function returns all the successful results as an array after they have completed asynchronously and concurrently.
