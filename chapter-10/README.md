@@ -16,3 +16,6 @@ Promises can handle multiple asynchronous tasks at once. The 'race()' function t
 
 ## all.js & count-prime-service.js
 The 'all()' method on Promise takes an array of promises and passes an array of results. If any one of the promises is rejected, then the 'catch()' is used. The 'all()' function returns all the successful results as an array after they have completed asynchronously and concurrently.
+
+## async-await.js
+To be able to use an asynchronous function as if it were a synchronouse function, optionally mark the promise returning asynchronous function with the keyword 'async'. To call asynchronous functions as if it were synchronous, place the 'await' keyword in front of the call. The 'await' keyword may be used only within functions marked 'async'.
