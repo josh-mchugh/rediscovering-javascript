@@ -32,3 +32,6 @@ JavaScript modules are well-encapsulated files. Modules all for cohesive softwar
 
 ## Chapter 10
 Modern JavaScript promises replace callbacks for asynchronous programming. Promises are nonblocking and will eventually return a result or an error to the caller through the promise. Promises are a lot easier to work with compared to calbacks. Their structure is a lot like functional style programming. With promises it is easier to propagate errors and recover from them as well.
+
+## Chapter 11
+Metaprogramming is a way to extend a program at runtime; it is the ability to write code that writes code. It is one of the most complex and new futures of JavaScript. Metaprogramming has two styles: member injection and member synthesis. Member injection is useful to add well-lknow methods to existing classes. Metaprogramming is quite powerful, but you have to be very careful when using it.

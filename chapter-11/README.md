@@ -1,0 +1,2 @@
+# Chapter 11
+Metaprogramming is a way to extend a program at runtime; it is the ability to write code that writes code. It is one of the most complex and new futures of JavaScript. Metaprogramming has two styles: member injection and member synthesis. Member injection is useful to add well-lknow methods to existing classes. Metaprogramming is quite powerful, but you have to be very careful when using it.
