@@ -12,3 +12,6 @@ Injecting a method into the class's prototype instead of the class itself is how
 
 ## inject-a-property.js
 Injecting a property takes a bit more effort then injecting a field or a method. Properties are authored a lot like methods but get marked with 'get' and 'set' when we create the class. Usingingthe 'defineProperty()' we are able to inject the property with it's name and it's function.
+
+## array-fluency.js
+Multiple properties can be added at one time. In this example we add two properties to the Array class which is 'first' and 'last' and both have a 'get' and 'set' so values can be retrieved and set. It is also possible to inject static properties that are available on the class level of any instance.
