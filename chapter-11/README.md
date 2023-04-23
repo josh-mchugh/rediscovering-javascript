@@ -9,3 +9,6 @@ Injecting a method into an instance is straightforward - create the function you
 
 ## inject-into-string-class.js
 Injecting a method into the class's prototype instead of the class itself is how we can inject a method into a classes and all instances will have it. If the instance method was already present in the prototype, the the injection will replace it for all instances. If we inject a method into only one instance, then the method is only replaced on that instance and the other instances will continue to use the original method.
+
+## inject-a-property.js
+Injecting a property takes a bit more effort then injecting a field or a method. Properties are authored a lot like methods but get marked with 'get' and 'set' when we create the class. Usingingthe 'defineProperty()' we are able to inject the property with it's name and it's function.
