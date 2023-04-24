@@ -35,3 +35,6 @@ Modern JavaScript promises replace callbacks for asynchronous programming. Promi
 
 ## Chapter 11
 Metaprogramming is a way to extend a program at runtime; it is the ability to write code that writes code. It is one of the most complex and new futures of JavaScript. Metaprogramming has two styles: member injection and member synthesis. Member injection is useful to add well-lknow methods to existing classes. Metaprogramming is quite powerful, but you have to be very careful when using it.
+
+## Chapter 12
+Method synthesis is the most powerful form of metaprogramming. It can alter the API and the behavior of objects based on the runtime context and state of the objects. Method synthese is a recent feature in JavaScript. It introduces two new classes Relfect and Proxy, which with method synthesis can help code become incredibly extensible.
