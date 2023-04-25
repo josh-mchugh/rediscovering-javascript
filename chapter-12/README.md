@@ -3,3 +3,6 @@ Method synthesis is the most powerful form of metaprogramming. It can alter the 
 
 ## get-set-prototype.js
 Reflect provides new and elegant ways to get and change the prototype of an object. Moding the prototype of an object is a risky buisness and should be sed judiciously and sparingly.
+
+## reflect-get-set.js
+With the new Reflect we can access the 'property' of a class dynamically instead of using the '[]' operator. Reflect works well with Proxy.
