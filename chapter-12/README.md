@@ -9,3 +9,6 @@ With the new Reflect we can access the 'property' of a class dynamically instead
 
 ## creating-proxy.js
 The Proxy class stands in for another object or a function and can intercept or trap calls to fields, methods, and properties. Proxies can be used to synthesize behavior on a class. In this example we used the Proxy to inertecept the request for the 'age' property and forward all other read accesses on the properties. This is an example of the Control Proxy pattern to  restrict access to some members of a class.
+
+## revocable.js
+Revocable Proxy can restrict access to an object after some time after the condition is met. In this example, the counter is able to count for 100 miliseconds in 20 milisecond intervals before the proxy is revoked and the calls to increment no longer work.
