@@ -6,3 +6,6 @@ Reflect provides new and elegant ways to get and change the prototype of an obje
 
 ## reflect-get-set.js
 With the new Reflect we can access the 'property' of a class dynamically instead of using the '[]' operator. Reflect has methods to iterate over the keys of an objet and to check if properties exist. Reflect works well with Proxy and serves as a conduit for default implmentation of methods in Proxy
+
+## creating-proxy.js
+The Proxy class stands in for another object or a function and can intercept or trap calls to fields, methods, and properties. Proxies can be used to synthesize behavior on a class. In this example we used the Proxy to inertecept the request for the 'age' property and forward all other read accesses on the properties. This is an example of the Control Proxy pattern to  restrict access to some members of a class.
