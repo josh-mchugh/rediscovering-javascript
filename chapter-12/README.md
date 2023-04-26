@@ -12,3 +12,6 @@ The Proxy class stands in for another object or a function and can intercept or 
 
 ## revocable.js
 Revocable Proxy can restrict access to an object after some time after the condition is met. In this example, the counter is able to count for 100 miliseconds in 20 milisecond intervals before the proxy is revoked and the calls to increment no longer work.
+
+## aop.js
+Aspect-oriented programming (AOP) is a special case of metaprogramming where function calls may be intercepted with advices. An advice is a piece of code that is exercised in a particular context. Advices can run 'Before', 'After', and 'Around' beofre a function call.
