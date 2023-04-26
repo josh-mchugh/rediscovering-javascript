@@ -18,3 +18,6 @@ Aspect-oriented programming (AOP) is a special case of metaprogramming where fun
 
 ## fluent-map.js
 Member Synthesis allows us to use Proxy to trap calls for missing properties. In this example if a member does not exist on the target object, then we can synthesize the behavior.  
+
+## map-synthesis.js
+Leveraging JavaScripts prototype inheritence we can set a proxy with a 'get()' trap on 'Map' prototype. This new design compared to previous, we do not have to worry about existing members. The proxy now serves as the appointed prototye since we know when JavaScript calls a property on an object, it requests it from the object's prototype when it is not found and propagates up the objects prototye chain. The proxy will be called only for nonexistent members since it is at the root of the prototype chain.
