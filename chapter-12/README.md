@@ -15,3 +15,6 @@ Revocable Proxy can restrict access to an object after some time after the condi
 
 ## aop.js
 Aspect-oriented programming (AOP) is a special case of metaprogramming where function calls may be intercepted with advices. An advice is a piece of code that is exercised in a particular context. Advices can run 'Before', 'After', and 'Around' beofre a function call.
+
+## fluent-map.js
+Member Synthesis allows us to use Proxy to trap calls for missing properties. In this example if a member does not exist on the target object, then we can synthesize the behavior.  
