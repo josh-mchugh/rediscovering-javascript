@@ -24,3 +24,6 @@ Leveraging JavaScripts prototype inheritence we can set a proxy with a 'get()' t
 
 ## src/component.mjs && src/sample.component.mjs && src/inspect-component.mjs
 A decorator is an intercepting function that is executed at runtime. Component() function receives properties as its parameter but immediately returns another function - the decorator function. The decorated class from the function apply the metadata to the target.  When JavaScript sees a decorator, it places a call to a function with the name of the decorator. The metadata from the decorator on 'SampleComponent' are able to be retreived from the metadata on the object via Reflect with the 'reflect-metadata' library.
+
+## src/decorators.mjs
+Decorators are really functions. The 'ToString' decorator factory save the exclude property passed through the properties. Person class has three fields. The 'ToString' decorator is attached with the property exclude with the value 'age'. The '@ToString()' decorator injected to the 'toString()' instance method into the person class and can do to any class it decorates. The 'Person' class 'toString()' will print the keys and values of the class and exclude any that were properties in the metadata.
