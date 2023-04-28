@@ -21,3 +21,6 @@ Member Synthesis allows us to use Proxy to trap calls for missing properties. In
 
 ## map-synthesis.js
 Leveraging JavaScripts prototype inheritence we can set a proxy with a 'get()' trap on 'Map' prototype. This new design compared to previous, we do not have to worry about existing members. The proxy now serves as the appointed prototye since we know when JavaScript calls a property on an object, it requests it from the object's prototype when it is not found and propagates up the objects prototye chain. The proxy will be called only for nonexistent members since it is at the root of the prototype chain.
+
+## src/component.mjs && src/sample.component.mjs && src/inspect-component.mjs
+A decorator is an intercepting function that is executed at runtime. Component() function receives properties as its parameter but immediately returns another function - the decorator function. The decorated class from the function apply the metadata to the target.  When JavaScript sees a decorator, it places a call to a function with the name of the decorator. The metadata from the decorator on 'SampleComponent' are able to be retreived from the metadata on the object via Reflect with the 'reflect-metadata' library.
